@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+
+body{
+    font-family: 'Prompt', sans-serif;
+    width: 75%;
+    margin: auto;
+    display: block;
+}
+h2{
+    cursor: pointer;
+    transition: 1.0s;
+}
+h2:hover{
+    transform: scale(1.1);
+}
+legend{
+    font-weight: bold; 
+    color: #ad815e;
+    cursor: pointer;
+    transition: 1.0s;
+}
+select{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.pilihan{
+    cursor: pointer;
+}
+legend:hover{
+    transform: scale(1.1);
+}
+.judul:hover{
+    background-color: #F9F9F9;
+}
+.data:hover{
+    background-color: #ad815e;
+}
+select:hover{
+    background-color: #FAF4B7;
+}
+input:hover{
+    background-color: #FAF4B7;
+}
+textarea:hover{
+    background-color: #FAF4B7;
+}
+option:hover{
+    background-color: #FAF4B7;
+}
+.kirim{
+    background-color: black;
+}
+button{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    background-color: #ad815e;
+    color: white;
+    padding:5px 14px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 170px;
+    margin-bottom: 60px;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.1);
+}
+.tombol{
+    text-align: left;
+}
