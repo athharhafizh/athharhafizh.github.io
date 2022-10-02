@@ -59,8 +59,10 @@
         .tombol{
             text-align: center;
         }
-        #hapus__1, #hapus__2, #hapus__3 ,#hapus__4 ,#hapus__5,#hapus__6 ,#hapus__7 ,#hapus__8 ,#hapus__9 ,#hapus__10{
+        tr{
             cursor: pointer;
+        }
+        #hapus__1, #hapus__2, #hapus__3 ,#hapus__4 ,#hapus__5,#hapus__6 ,#hapus__7 ,#hapus__8 ,#hapus__9 ,#hapus__10{
             background-color: #cac2b5;
         }
         </style>
@@ -153,7 +155,7 @@
 
             $('#baris__'+id_baris).fadeOut();
         }else{
-            alert("Anda mengklik kolom yang berisi : " + $(this).html() + "!");
+            alert("Saat ini anda mengklik kolom yang berisi kata " + $(this).html() + "!");
         }
     });
     </script>
