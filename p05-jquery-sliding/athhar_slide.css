@@ -1,0 +1,29 @@
+body{
+    width: 70%;
+    margin: auto;
+    background-image: url(starwars.webp);
+}
+#lipat, #panel{
+    font-family: 'Prompt', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    box-shadow: 1px 6px 10px 1px rgb(31, 81, 255);
+    padding:8px 14px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.tombol{
+    margin-top: 35%;
+}
+#lipat{
+    background-color: #251B37;
+}
+#panel {
+    background-color: #372948;
+    padding: 50px;
+    display: none;
+}
