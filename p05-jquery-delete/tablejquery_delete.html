@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">    
+    <title>The Top 10 Of My Best Friends Jquery</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: #e3cec6;
+        }
+        table, th, td{
+            font-family: 'Prompt', sans-serif;
+            border: 1px solid black;
+            border-collapse: collapse;
+            position: center;
+            padding-top: 13em;
+        }
+        th{
+            background-color: #ad815e;
+        }
+        th, td{
+            font-weight: bold;
+            text-align: center;
+            padding: 5px;
+            transition: 0.1s;
+        }
+        th:hover{
+            background-color: #9b8f79;
+        }
+        td:hover{
+            background-color: #9b8f79;
+        }
+        caption{
+            font-weight: bold;
+            margin: 10px;
+        }
+        button{
+            font-family: 'Prompt', sans-serif;
+            font-weight: bold;
+            background-color: #ad815e;
+            color: white;
+            padding: 5px 14px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: 0.5s;
+        }
+        button:hover{
+        transform: scale(1.1);
+        }
+        .tombol{
+            text-align: center;
+        }
+        .ubah{
+            background-color: #cac2b5;
+        }
+        </style>
+
+    <table align="center">
+        <caption>The Top 10 Of My Best Friends Jquery</caption>
+        <tr>
+            <th>No.</th>
+            <th>Nama</th>
+            <th>Alamat</th>
+            <th colspan="2">Action</th>
+        </tr>
+        <tr class="baris" id="baris__1">
+            <td>1.</td>
+            <td class="isi" id="nama_mhs__1">Muhammad Ibnu Syna</td>
+            <td class="isi" id="alamat_mhs__1">Jl. Samijaya, Majalengka</td>
+            <td class="isi" id="hapus__1">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__2">
+            <td>2.</td>
+            <td class="isi" id="nama_mhs__2">Nurul Muna Fithriyani</td>
+            <td class="isi" id="alamat_mhs__2">Jl. Lapang Bola Bintaro, Hulubanteng</td>
+            <td class="isi" id="hapus__2">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__3">
+            <td>3.</td>
+            <td class="isi" id="nama_mhs__3">Nafa Salsabila</td>
+            <td class="isi" id="alamat_mhs__3">Jl. Perkutut Desa Pesanggahan, Plumbon</td>
+            <td class="isi" id="hapus__3">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__4">
+            <td>4.</td>
+            <td class="isi" id="nama_mhs__4">Euis Fadilah</td>
+            <td class="isi" id="alamat_mhs__4">Batik Residence Blok C2, Talun</td>
+            <td class="isi" id="hapus__4">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__5">
+            <td>5.</td>
+            <td class="isi" id="nama_mhs__5">Anjar Ayuning Lestari</td>
+            <td class="isi" id="alamat_mhs__5">Jl. Kedung Menjangan, Harjamukti</td>
+            <td class="isi" id="hapus__5">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__6">
+            <td>6.</td>
+            <td class="isi" id="nama_mhs__6">Azzahra Moudy Fajria</td>
+            <td class="isi" id="alamat_mhs__6">Jl. Kanggraksan Selatan, Kanggraksan</td>
+            <td class="isi" id="hapus__6">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__7">
+            <td>7.</td>
+            <td class="isi" id="nama_mhs__7">Muhammad Enricco Rizqy</td>
+            <td class="isi" id="alamat_mhs__7">Jl. Tambas 1, Klayan</td>
+            <td class="isi" id="hapus__7">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__8">
+            <td>8.</td>
+            <td class="isi" id="nama_mhs__8">Dini Andriyani</td>
+            <td class="isi" id="alamat_mhs__8">Jl. Gunung Agung II, Harjamukti</td>
+            <td class="isi" id="hapus__8">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__9">
+            <td>9.</td>
+            <td class="isi" id="nama_mhs__9">Bagus Hermawan</td>
+            <td class="isi" id="alamat_mhs__9">Kriyan Barat, Lemahwungkuk</td>
+            <td class="isi" id="hapus__9">Delete</td>
+        </tr>
+        <tr class="baris" id="baris__10">
+            <td>10.</td>
+            <td class="isi" id="nama_mhs__10">Syaiful Imanudin</td>
+            <td class="isi" id="alamat_mhs__10">Ling. Si Klinting, Watu Belah</td>
+            <td class="isi" id="hapus__10">Delete</td>
+        </tr>
+    </table>
+    <div class="tombol">
+        <a onclick="alert('Apakah kamu ingin kembali ke Main Page?')" href="../Latihan 2">
+            <button>Kembali</button>
+        </a>
+    </div>
+    <script type="text/javascript">
+    $('.isi').click(function(){
+        let isi = $(this).text();
+        let tid = $(this).prop('id');
+        let rid = tid.split('__');
+        let id_baris = rid[1];
+        let nama_mhs = $('#nama_mhs__'+id_baris).text();
+
+        if(isi=='Delete'){
+            let konfirmasi = confirm(`Anda yakin ingin menghapus data atas nama ${nama_mhs}?`);
+            if(!konfirmasi) return;
+
+            $('#baris__'+id_baris).fadeOut();
+        }else{
+            alert("Anda mengklik kolom yang berisi : " + $(this).html() + "!");
+        }
+    });
+    </script>
+</body>
+</html>
