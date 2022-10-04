@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spamenu_athhar.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navigasi">
+        <div class="bungkus_navigasi">
+    
+            <ul>
+                <li><a href="../Latihan 2/index.html" class="logo">Athhar</a></li>
+                <li><a href="spamenu.html">Home</a></li>
+                <li><a href="#" id="lipat1">About Me</a></li>
+                <li><a href="#" id="lipat2">Contact</a></li>
+            </ul>
+
+        </div>
+
+        <div class="toggle" id="panel1">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis ratione laboriosam, delectus cupiditate dicta, facere dignissimos, sequi a esse earum in temporibus beatae cumque illo ullam recusandae rem iste laudantium?</p>
+        </div>
+
+        <div class="kontak_saya" id="panel2">
+            <p>
+                My Contact
+                <br>
+                <a href="https://wa.me/+6282115778443" class="wa">WhatsApp</a>
+                <a href="https://instagram.com/athharhafizh" class="ig">Instagram</a>
+            </p>
+        </div>
+    </nav>
+
+    <script src="../Script/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+        $("#lipat1").click(function(){
+            $("#panel1").slideToggle("slow");
+            $("#panel2").slideUp("slow");
+        });
+
+        $("#lipat2").click(function(){
+            $("#panel1").slideUp("slow");
+                $("#panel2").slideToggle("slow");
+            });
+        });
+    </script>
+
+
+</body>
+</html>

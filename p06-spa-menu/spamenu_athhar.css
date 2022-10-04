@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 35em;
+}
+
+.toggle{
+    display: none;
+    padding: 50px;
+    text-align: justify;
+    color: 	rgb(249, 246, 238);
+    background-color: #414141;
+}
+
+.kontak_saya{
+    display: none;
+    padding: 50px;
+    text-align: center;
+    color: rgb(249, 246, 238);
+    background-color: #414141;
+}
+
+.bungkus_navigasi{
+    background-color: #252525;
+    padding: 20px 0;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li{
+    margin-right: 3em;
+}
+
+a{
+    color: 	rgb(249, 246, 238);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #999696;
+}
+
+.wa{
+    color: #25D366;
+}
+
+.ig{
+    color: #833AB4;
+}
