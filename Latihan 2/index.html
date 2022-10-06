@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,21 +9,23 @@
     <link rel="stylesheet" href="uts_athhar.css">
     <title>Portofolio | Athhar Hafizha Luthfi</title>
 </head>
+
 <body>
+    <!-- nav -->
     <nav class="navigasi">
         <div class="bungkus_navigasi">
-    
             <ul>
                 <li><a href="index.html" class="logo">Athhar</a></li>
                 <li><a href="#" id="lipat1">About</a></li>
                 <li><a href="#" id="lipat2">Project</a></li>
                 <li><a href="#" id="lipat3">Contact</a></li>
             </ul>
-
         </div>
         <div class="tampilan_flex">
             <div class="toggle" id="panel1">
-                <h4>Halo, nama saya <b>Athhar Hafizha Luthfi</b>. Saya asli kelahiran Cirebon, 27 September 2003. Saya merupakan lulusan dari SMAN 2 Cirebon jurusan MIPA. Sekarang saya melanjutkan pendidikan S1 Teknik Informatika di STMIK IKMI Cirebon.</h4>
+                <h4>Halo, nama saya <b>Athhar Hafizha Luthfi</b>. Saya asli kelahiran Cirebon, 27 September 2003. Saya
+                    merupakan lulusan dari SMAN 2 Cirebon jurusan MIPA. Sekarang saya melanjutkan pendidikan S1 Teknik
+                    Informatika di STMIK IKMI Cirebon.</h4>
                 <br>
                 <h4><b>Hobi : </b></h4>
                 <ul class="list">
@@ -39,7 +42,8 @@
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends Jquery?')" href="../p03jquery/tablejquery.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends Jquery?')"
+                            href="../p03jquery/tablejquery.html">
                             Top 10 Friends Jquery
                         </a>
                     </li>
@@ -49,45 +53,51 @@
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB STMIK IKMI Cirebon?')" href="../p03form-lv1/form.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB STMIK IKMI Cirebon?')"
+                            href="../p03form-lv1/form.html">
                             Formulir PMB
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS?')" href="../p04css-basic/formcss.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS?')"
+                            href="../p04css-basic/formcss.html">
                             Formulir PMB CSS
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS Responsive?')" href="../p04css-responsive/form-responsive.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS Responsive?')"
+                            href="../p04css-responsive/form-responsive.html">
                             Formulir PMB CSS Responsive
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke Table JQuery Fade Out?')" href="../p05-jquery-delete/tablejquery_delete.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke Table JQuery Fade Out?')"
+                            href="../p05-jquery-delete/tablejquery_delete.html">
                             Table JQuery Fade Out
                         </a>
                     </li>
                     <li>
-                        <a onclick="alert('Apakah kamu ingin menuju ke JQuery Sliding?')" href="../p05-jquery-sliding/tombol_slide.html">
+                        <a onclick="alert('Apakah kamu ingin menuju ke JQuery Sliding?')"
+                            href="../p05-jquery-sliding/tombol_slide.html">
                             JQuery Sliding
                         </a>
                     </li>
                 </ul>
             </div>
-    
+
             <div class="kontak_saya" id="panel3">
                 <p>
                     My Contact
                 </p>
-                    <br>
-                    <a href="https://wa.me/+6282115778443" class="wa"><i class="bi bi-whatsapp"></i></a>
-                    <a href="https://instagram.com/athharhafizh" class="ig"><i class="bi bi-instagram"></i></a>
+                <br>
+                <a href="https://wa.me/+6282115778443" class="wa"><i class="bi bi-whatsapp"></i></a>
+                <a href="https://instagram.com/athharhafizh" class="ig"><i class="bi bi-instagram"></i></a>
             </div>
         </div>
-        
     </nav>
+    <!-- end nav -->
 
+    <!-- content -->
     <div class="bungkus_bio">
         <div class="gambar">
             <img src="Athhar Hafizha Luthfi_Foto Diri.png">
@@ -98,28 +108,32 @@
             <h4 class="h4_kedua">Mahasiswa aktif Teknik Informatika, STMIK IKMI Cirebon</h4>
         </div>
     </div>
+    <!-- end content -->
+
+    <!-- footer -->
+    <footer>2022 - Athhar Hafizha Luthfi</footer>
+    <!-- end -->
 
     <script src="../Script/jquery.js"></script>
-
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
 
-        $("#lipat1").click(function(){
-            $("#panel1").slideToggle("slow");
+            $("#lipat1").click(function () {
+                $("#panel1").slideToggle("slow");
                 $("#panel2").slideUp("slow");
-                    $("#panel3").slideUp("slow");
-        });
-
-        $("#lipat2").click(function(){
-            $("#panel1").slideUp("slow");
                 $("#panel3").slideUp("slow");
-                    $("#panel2").slideToggle("slow");
             });
-            
-        $("#lipat3").click(function(){
-            $("#panel1").slideUp("slow");
+
+            $("#lipat2").click(function () {
+                $("#panel1").slideUp("slow");
+                $("#panel3").slideUp("slow");
+                $("#panel2").slideToggle("slow");
+            });
+
+            $("#lipat3").click(function () {
+                $("#panel1").slideUp("slow");
                 $("#panel2").slideUp("slow");
-                    $("#panel3").slideToggle("slow");
+                $("#panel3").slideToggle("slow");
             });
         });
     </script>
@@ -127,6 +141,5 @@
 
 </body>
 
-<footer>2022 - Athhar Hafizha Luthfi</footer>
 
 </html>
