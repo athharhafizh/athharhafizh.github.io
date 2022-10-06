@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Prompt&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #414141;
+}
+
+/* NAVBAR */
+
+.bungkus_navigasi{
+    background-color: #252525;
+    padding: 20px 0;
+}
+
+.bungkus_navigasi ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.bungkus_navigasi li{
+    margin-right: 3em;
+}
+
+.logo{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 35em;
+    transition: 0.5s;
+}
+
+#lipat1{
+    transition: 0.5s;
+}
+
+#lipat2{
+    transition: 0.5s;
+}
+
+#lipat3{
+    transition: 0.5s;
+}
+
+.toggle{
+    display: none;
+    font-size: 15px;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: justify;
+    color: 	rgb(249, 246, 238);
+    background-color: #7F8487;
+}
+
+.toggle h4{
+    font-weight: 300;
+}
+
+.projek{
+    display: none;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    color: 	rgb(249, 246, 238);
+    background-color: #7F8487;
+}
+
+.projek ul{
+    list-style: none;
+}
+
+.projek ul li{
+    padding: 10px;
+}
+
+.projek a{
+    transition: 0.5s;
+}
+
+.projek a:hover{
+    color: #414141;
+}
+
+.kontak_saya{
+    display: none;
+    padding: 50px;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(249, 246, 238);
+    background-color: #7F8487;
+}
+
+.kontak_saya a{
+    font-size: 40px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.wa:hover{
+    color: #25D366;
+}
+
+.ig:hover{
+    color: #833AB4;
+}
+
+a{
+    color: 	rgb(249, 246, 238);
+    text-decoration: none;
+}
+
+a:hover{
+    color: #999696;
+}
+
+/* BODY */
+img{
+    overflow: auto;
+    margin: 2em;
+    margin-top: 6em;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -10px 10px rgb(249, 246, 238);
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.04);
+}
+
+.gambar{
+    width: 35%;
+}
+
+.bungkus_bio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bungkus_kata{
+    cursor: default;
+    margin-left: -70px;
+    margin-right: 40px;
+    padding: 2em;
+    color: rgb(249, 246, 238);
+}
+
+.h1_awal{
+    transition: 0.5s;
+}
+
+.bungkus_kata h1:hover{
+    transform: scale(1.03);
+}
+
+.h4_awal{
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+.bungkus_kata h4:hover{
+    transform: scale(1.03);
+}
+
+.h4_kedua{
+    font-weight: 300;
+    transition: 0.5s;
+}
+
+/* Footer */
+footer{
+    margin-top: 30px;
+    background-color: #252525;
+    color: rgb(249, 246, 238);  
+    padding: 30px 0;
+    text-align: center;
+}
+
+/* RESPONSIVE */
+
+/* Ukuran tablet */
+@media screen and (max-width: 768px){
+
+    body{
+        width: 100%;
+    }
+    /* navbar */
+    .navigasi{
+        width: 100%;
+    }
+
+    .bungkus_navigasi ul{
+        width: 90%;
+    }
+    
+    .logo{
+        margin-right: 9em;
+    }
+
+    /* body */
+    .toggle{
+        width: 87%;
+    }
+
+    .gambar{
+        width: 30%;
+    }
+
+    .bungkus_kata{
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 5%;
+    }
+
+    .bungkus_kata h1{
+        font-size: 20px;
+    }
+
+    .bungkus_kata h4{
+        font-size: 15px;
+    }
+
+    footer{
+        margin: 0;
+    }
+
+}
+
+/* Ukuran Mobile */
+
+@media screen and (max-width: 576px){
+
+}

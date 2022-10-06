@@ -4,111 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt&display=swap" rel="stylesheet">
-    <title>Athhar Hafizha Luthfi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="uts_athhar.css">
+    <title>Portofolio | Athhar Hafizha Luthfi</title>
 </head>
 <body>
-    <style>
-        body{
-            background-color: #e3cec6;
-        }
-        h2{
-            font-family: 'Prompt', sans-serif;
-            cursor: pointer;
-            color: #000000;
-            text-align: center;
-            margin-top: 10em;
-            transition: 0.5s;
-        }
-        h2:hover{
-            transform: scale(1.1);
-            opacity: 100%;
-        }
-        h4{
-            font-family: 'Prompt', sans-serif;
-            cursor: pointer;
-            color: #000000;
-            text-align: center;
-            margin: auto;
-            transition: 0.5s;
-        }
-        h4:hover{
-            transform: scale(1.1);
-            opacity: 100%;
-        }
-        a{
-            text-decoration: none;
-        }
-        button{
-            font-family: 'Prompt', sans-serif;
-            font-weight: bold;
-            background-color: #ad815e;
-            color: white;
-            padding: 5px 14px;
-            border: none;
-            width: 230px;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-top: 20px;
-            transition: 0.5s;
-        }
-        button:hover{
-            transform: scale(1.1);
-        }
-        .tombol{
-            text-align: center;
-            margin-right: 80px;
-        }
-    </style>
-    <a href="https://www.instagram.com/athharhafizh/">
-        <h2>Athhar Hafizha Luthfi</h2>
-    </a>
-    <h4>NIM: 41215362</h4>
-    <div class="tombol">
-        <ol>
+    <nav class="navigasi">
+        <div class="bungkus_navigasi">
+    
             <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends?')" href="../p03/table.html">
-                    <button>Top 10 Friends</button>
-                </a>
+                <li><a href="index.html" class="logo">Athhar</a></li>
+                <li><a href="#" id="lipat1">About</a></li>
+                <li><a href="#" id="lipat2">Project</a></li>
+                <li><a href="#" id="lipat3">Contact</a></li>
             </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends Jquery?')" href="../p03jquery/tablejquery.html">
-                    <button>Top 10 Friends Jquery</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Top 5 Friends?')" href="../p03css/tablecss.html">
-                    <button>Top 5 Friends</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB STMIK IKMI Cirebon?')" href="../p03form-lv1/form.html">
-                    <button>Formulir PMB</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS?')" href="../p04css-basic/formcss.html">
-                    <button>Formulir PMB CSS</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS Responsive?')" href="../p04css-responsive/form-responsive.html">
-                    <button>Formulir PMB CSS Responsive</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke Table JQuery Fade Out?')" href="../p05-jquery-delete/tablejquery_delete.html">
-                    <button>Table JQuery Fade Out</button>
-                </a>
-            </ul>
-            <ul>
-                <a onclick="alert('Apakah kamu ingin menuju ke JQuery Sliding?')" href="../p05-jquery-sliding/tombol_slide.html">
-                    <button>JQuery Sliding</button>
-                </a>
-            </ul>
-        </ol>
+
+        </div>
+        <div class="tampilan_flex">
+            <div class="toggle" id="panel1">
+                <h4>Halo, nama saya <b>Athhar Hafizha Luthfi</b>. Saya asli kelahiran Cirebon, 27 September 2003. Saya merupakan lulusan dari SMAN 2 Cirebon jurusan MIPA. Sekarang saya melanjutkan pendidikan S1 Teknik Informatika di STMIK IKMI Cirebon.</h4>
+                <br>
+                <h4><b>Hobi : </b></h4>
+                <ul class="list">
+                    <li>Mendengar Lagu</li>
+                    <li>Menonton Film / Series</li>
+                    <li>Bermain Games Console / Mobile / PC</li>
+                </ul>
+            </div>
+            <div class="projek" id="panel2">
+                <ul>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends?')" href="../p03/table.html">
+                            Top 10 Friends
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Top 10 Friends Jquery?')" href="../p03jquery/tablejquery.html">
+                            Top 10 Friends Jquery
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Top 5 Friends?')" href="../p03css/tablecss.html">
+                            Top 5 Friends
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB STMIK IKMI Cirebon?')" href="../p03form-lv1/form.html">
+                            Formulir PMB
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS?')" href="../p04css-basic/formcss.html">
+                            Formulir PMB CSS
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Formulir PMB CSS Responsive?')" href="../p04css-responsive/form-responsive.html">
+                            Formulir PMB CSS Responsive
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke Table JQuery Fade Out?')" href="../p05-jquery-delete/tablejquery_delete.html">
+                            Table JQuery Fade Out
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Apakah kamu ingin menuju ke JQuery Sliding?')" href="../p05-jquery-sliding/tombol_slide.html">
+                            JQuery Sliding
+                        </a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="kontak_saya" id="panel3">
+                <p>
+                    My Contact
+                </p>
+                    <br>
+                    <a href="https://wa.me/+6282115778443" class="wa"><i class="bi bi-whatsapp"></i></a>
+                    <a href="https://instagram.com/athharhafizh" class="ig"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+        
+    </nav>
+
+    <div class="bungkus_bio">
+        <div class="gambar">
+            <img src="Athhar Hafizha Luthfi_Foto Diri.png">
+        </div>
+        <div class="bungkus_kata">
+            <h1 class="h1_awal">Halo, Nama Saya Athhar Hafizha Luthfi</h1>
+            <h4 class="h4_awal">NIM saya 41215362</h4>
+            <h4 class="h4_kedua">Mahasiswa aktif Teknik Informatika, STMIK IKMI Cirebon</h4>
+        </div>
     </div>
+
+    <script src="../Script/jquery.js"></script>
+
+    <script>
+        $(document).ready(function(){
+
+        $("#lipat1").click(function(){
+            $("#panel1").slideToggle("slow");
+                $("#panel2").slideUp("slow");
+                    $("#panel3").slideUp("slow");
+        });
+
+        $("#lipat2").click(function(){
+            $("#panel1").slideUp("slow");
+                $("#panel3").slideUp("slow");
+                    $("#panel2").slideToggle("slow");
+            });
+            
+        $("#lipat3").click(function(){
+            $("#panel1").slideUp("slow");
+                $("#panel2").slideUp("slow");
+                    $("#panel3").slideToggle("slow");
+            });
+        });
+    </script>
+
+
 </body>
+
+<footer>2022 - Athhar Hafizha Luthfi</footer>
+
 </html>
