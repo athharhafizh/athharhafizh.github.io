@@ -225,10 +225,11 @@ footer {
 
 @media screen and (max-width: 576px) {
   .logo {
-    display: none;
+    margin-right: 1.5em;
   }
-  #lipat1{
-    margin-left: -30px;
+
+  #lipat1, #lipat2, #lipat3{
+    margin-left: -36px;
   }
   .h1_awal{
     font-size: 30px;
@@ -241,21 +242,21 @@ footer {
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 393px) {
   #lipat1{
-    margin-left: -30px;
+    margin-left: -36px;
   }
 }
 
 @media screen and (max-width: 375px) {
   #lipat1{
-    margin-left: -35px;
+    margin-left: -47px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  #lipat1{
-    margin-left: -50px;
+  .logo {
+    margin-left: -1em;
   }
   .h1_awal{
     font-size: 25px;
