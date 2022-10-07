@@ -14,6 +14,9 @@ body {
 /* NAVBAR */
 nav {
   background-color: #252525;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 .bungkus_navigasi {
   background-color: #252525;
@@ -147,6 +150,7 @@ img:hover {
 }
 
 .bungkus_kata {
+  cursor: default;
   padding: 2em;
   color: rgb(249, 246, 238);
 }
@@ -192,6 +196,9 @@ footer {
   .bungkus_navigasi ul {
     justify-content: start;
   }
+  #lipat1{
+    margin-left: 9em;
+  }
   .logo {
     margin-right: 2em;
   }
@@ -204,6 +211,10 @@ footer {
   .bungkus_bio .bungkus_kata {
     width: 100%;
   }
+  .gambar{
+    margin-right: 2em;
+    width: 60%;
+  }
   footer {
     width: 100%;
     padding: 2em;
@@ -213,4 +224,40 @@ footer {
 /* Ukuran Mobile */
 
 @media screen and (max-width: 576px) {
+  .logo {
+    display: none;
+  }
+  #lipat1{
+    margin-left: -35px;
+  }
+  .h1_awal{
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #lipat1{
+    margin-left: -26px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  #lipat1{
+    margin-left: -30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #lipat1{
+    margin-left: -35px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #lipat1{
+    margin-left: -50px;
+  }
+  .h1_awal{
+    font-size: 25px;
+  }
 }

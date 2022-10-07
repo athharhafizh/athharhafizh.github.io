@@ -1,70 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Prompt&family=Roboto&display=swap");
 
 body{
-    font-family: 'Prompt', sans-serif;
-    width: 75%;
-    margin: auto;
-    display: block;
+  font-family: 'Poppins', sans-serif;
+  width: 75%;
+  margin: auto;
+  display: block;
 }
 h2{
-    cursor: pointer;
-    transition: 1.0s;
+  cursor: pointer;
+  transition: 1.0s;
 }
 h2:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 legend{
-    font-weight: bold; 
-    color: #ad815e;
-    cursor: pointer;
-    transition: 1.0s;
+  font-weight: bold; 
+  color: #252525;
+  cursor: pointer;
+  transition: 1.0s;
 }
 select{
-    cursor: pointer;
+  cursor: pointer;
 }
 a{
-    text-decoration: none;
+  text-decoration: none;
 }
 .pilihan{
-    cursor: pointer;
+  cursor: pointer;
 }
 legend:hover{
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 .judul:hover{
-    background-color: #F9F9F9;
+  background-color: #F9F9F9;
 }
 .data:hover{
-    background-color: #ad815e;
+  background-color: #7f8487;
 }
 select:hover{
-    background-color: #FAF4B7;
+  background-color: #7f8487;
 }
 input:hover{
-    background-color: #FAF4B7;
+  background-color: #7f8487;
 }
 textarea:hover{
-    background-color: #FAF4B7;
+  background-color: #7f8487;
 }
 option:hover{
-    background-color: #FAF4B7;
+  background-color: #7f8487;
 }
 .kirim{
-    background-color: black;
+  background-color: #252525;
 }
 button{
-    font-family: 'Prompt', sans-serif;
-    font-weight: bold;
-    background-color: #ad815e;
-    color: white;
-    padding:5px 14px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-top: 170px;
-    margin-bottom: 60px;
-    transition: 0.5s;
+  font-weight: bold;
+  background-color: #414141;
+  color: white;
+  padding:5px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 170px;
+  margin-bottom: 60px;
+  transition: 0.5s;
 }
 button:hover{
     transform: scale(1.1);
@@ -95,6 +94,9 @@ button:hover{
   ol{
     font-size: 10px;
   }
+  .pilihan{
+    width: 5px;
+  }
   th{
     font-size: 5px;
   }
@@ -119,11 +121,9 @@ button:hover{
     margin: 0;
   }
 }
-@media only screen and (max-width: 240px) {
+@media only screen and (max-width: 576px) {
   body{
-  width: 100%;
   margin: auto;
-  padding: 0;
   }
   .kabeh{
   width: 100%;
@@ -158,11 +158,5 @@ button:hover{
   font-size: 5px;
   padding:5px 10px;
   margin-left: 5px;
-  }
-  .pilihan{
-  margin-right: 0;
-  }
-  .darah{
-  margin: 0;
   }
 }
